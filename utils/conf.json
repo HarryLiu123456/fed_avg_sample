@@ -1,0 +1,23 @@
+{
+	"_comment" : "这是一条注释，从上往下键分别为：模型名称、模型数量、数据集类型、全局迭代次数、局部迭代次数、每次选取的客户端数量、每次加载的数据数量、学习率、动量、权重衰减系数",
+
+	"model_name" : "resnet18",
+	
+	"no_models" : 10,	
+	
+	"type" : "cifar",
+	
+	"global_epochs" : 20,
+	
+	"local_epochs" : 3,
+	
+	"k" : 5,
+	
+	"batch_size" : 32,
+	
+	"lr" : 0.001,
+	
+	"momentum" : 0.0001,
+	
+	"lambda" : 0.1
+}
